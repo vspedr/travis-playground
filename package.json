@@ -1,0 +1,26 @@
+{
+  "name": "travis-playground",
+  "version": "1.0.0",
+  "description": "Just playing around with Travis CI",
+  "main": "hello.js",
+  "scripts": {
+    "test": "./node_modules/jshint/bin/jshint hello.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vspedr/travis-playground.git"
+  },
+  "keywords": [
+    "travis-ci",
+    "travis"
+  ],
+  "author": "vspedr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vspedr/travis-playground/issues"
+  },
+  "homepage": "https://github.com/vspedr/travis-playground#readme",
+  "devDependencies": {
+    "jshint": "^2.9.4"
+  }
+}
