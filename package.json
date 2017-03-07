@@ -4,7 +4,7 @@
   "description": "Just playing around with Travis CI",
   "main": "hello.js",
   "scripts": {
-    "test": "./node_modules/jshint/bin/jshint hello.js"
+    "test": "mocha test/hello.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,10 @@
   },
   "homepage": "https://github.com/vspedr/travis-playground#readme",
   "devDependencies": {
-    "jshint": "^2.9.4"
+    "chai": "^3.5.0",
+    "jshint": "^2.9.4",
+    "mocha": "^3.2.0",
+    "request": "^2.80.0",
+    "should": "^11.2.0"
   }
 }
