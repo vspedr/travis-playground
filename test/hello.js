@@ -10,7 +10,7 @@ describe('/GET Hello', () => {
       url: 'http://localhost:1337',
       method: 'get',
     }, (error, response) => {
-      response.should.have.property('body', 'Hello Travis!\n');
+      response.should.have.property('body', 'Hellosodifsdoi Travis!\n');
       done();
     });
   });
